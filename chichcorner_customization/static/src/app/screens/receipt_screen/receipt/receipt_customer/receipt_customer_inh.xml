@@ -3,7 +3,7 @@
     <t t-name="pos_receipt_screen.receiptscreen_customer" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension">
         <xpath expr="//div[@class='before-footer']" position="replace"/>
         <xpath expr="//div[@class='pos-receipt-center-align']" position="replace">
-            <div t-if="props.data.footer" class="pos-receipt-center-align" style="white-space:pre-line; font-size:5px;">
+            <div t-if="props.data.footer" class="pos-receipt-center-align" style="white-space:pre-line; font-size:10px;">
                 <br/>
                 <t t-esc="props.data.footer" />
                 <br/>
@@ -21,7 +21,7 @@
 
                 <img t-att-src="'/web/binary/barcode?data=' + encodeURIComponent(props.data.pos_reference) + '&amp;type=CODE128&amp;width=2&amp;height=100'" alt="Barcode" />
 -->
-                <img t-att-src="'https://barcode.tec-it.com/barcode.ashx?data=' + props.data.name" alt="Order Barcode" class="barcode-image" style="width: 150px; height: auto;"/>
+                <img t-att-src="'https://barcode.tec-it.com/barcode.ashx?data=' + props.data.name" alt="Order Barcode" class="barcode-image" style="width: 300px; height: auto;"/>
 
             </div>
         </xpath>
@@ -36,6 +36,6 @@
                 </div>
             </t>
         </xpath>
-         -->
+-->
     </t>
 </templates>

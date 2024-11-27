@@ -28,8 +28,8 @@
                            <option value="attijari_wafabank">ATTIJARI WAFABANK</option>
                            <option value="SGMB">Socièté Général</option>
                            <option value="LPB">AL BARID BANK</option>
-                           <option value="BCP">BANQUE CENTRALE POPULAIRE</option>
                            <option value="banque_populaire">BANQUE POPULAIRE</option>
+                           <option value="BCP">BANQUE CENTRALE POPULAIRE</option>
                            <option value="BMCE">BANK OF AFRICA</option>
                            <option value="BMCI">BANQUE MAROCAINE POUR LE COMMERCE ET L’INDUSTRIE</option>
                            <option value="CADM">CREDIT AGRICOLE DU MAROC</option>
